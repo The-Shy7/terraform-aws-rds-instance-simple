@@ -13,7 +13,7 @@ Example usage:
 module "database" {
   source = "The-Shy7/rds-instance-simple/aws"
 
-  db_name = "example_db"
+  db_name = "example-db"
   security_group_ids = ["sg-12345678"]
   subnet_ids = ["subnet-12345678", "subnet-87654321"]
   credentials = {
